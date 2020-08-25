@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="contain"
+    style={
+      Object {
+        "backgroundColor": "lightgoldenrodyellow",
+        "paddingBottom": "330px",
+        "paddingTop": "10px",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "blue",
+        }
+      }
+    >
+      Login
+    </h1>
+    <form>
+      <b>
+        <label>
+          Username:  
+        </label>
+      </b>
+      <input
+        id="username"
+        onChange={[Function]}
+        type="text"
+      />
+      <span
+        className="error"
+        name="username"
+      >
+        Username is required
+      </span>
+      <br />
+      <br />
+      <b>
+        <label>
+          Password:  
+        </label>
+      </b>
+      <input
+        id="password"
+        name="password"
+        onChange={[Function]}
+        type="password"
+      />
+      <span
+        className="error"
+      >
+        Password is required
+      </span>
+      <br />
+      <br />
+      <input
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+        value="Login"
+      />
+      <br />
+      <br />
+    </form>
+  </div>
+</div>
+`;

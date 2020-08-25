@@ -1,0 +1,241 @@
+.head {
+    background-color: lightsalmon;
+    overflow: auto;
+    padding: 20px 10px;
+   
+    color: black;
+    text-align: right;
+    /* padding: 10px; */
+    text-decoration: none;
+     font-size: 18px; 
+     line-height: 25px;
+     border-radius: 4px;
+  }
+
+  .head:after{
+    content: "";
+    display:block;
+    clear: both;
+  }
+  .foot{
+    text-align: center;
+    overflow: auto;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    background-color: lightsalmon;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+ .contain  {
+    border:2px solid;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    
+}
+
+.card {
+  display: inline-block;
+  width: 43%;
+  height: 30%;
+  margin: 1%;
+  padding: 1%;
+  border: 3px solid red;
+  min-width: 400px;
+  margin-bottom: 80px;
+  background-color:skyblue;
+  
+}
+.cardimg{
+  width: 100%;
+  height: 250px;
+ 
+}
+.cards{
+  width: 50%;
+  font-style: italic;
+}
+.cardtitle{
+  margin: 1%;
+  width: 98%;
+  text-align: center;
+}
+.carditem{
+  margin: 1%;
+  padding-left: 1% ;
+  padding-right: 1%;
+  /* text-align: left; */
+  width: 96%;
+  /* display: inline-block; */
+}
+
+
+/* .left{
+  float: left;
+}
+.right{
+  float: right;
+} */
+
+.cardstyle{
+  
+  
+    
+    max-width: 400px;
+    border-color: black;
+   border-style: solid;
+    /* margin: left; */
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 100px;
+    
+}
+
+.buttonProduct{
+  background-color:green;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  padding:60px;
+  width: 20%;
+  margin:10px;
+  border:none;
+  opacity: 0.8;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-right: 60%;
+ 
+  /* float:right; */
+  /* margin-right:20%; */
+}
+
+.buttonProduct:after{
+  content: "";
+    display: contents;
+    clear: both;
+}
+
+
+.buttonClr1{
+  background-color:green;
+  color:white;
+  padding:20px;
+
+  margin:10px;
+  border:none;
+  opacity: 0.8;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+  /* float:right; */
+  /* margin-right:20%; */
+  
+}
+
+.buttonClr2{
+  background-color:red;
+  color:white;
+  padding:20px;
+  margin:10px;
+  border:none;
+  opacity: 0.8;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+  /* float:right; */
+  /* margin-right:20%; */
+  
+}
+
+.buttonClr1:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+.buttonClr2:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+}
+
+.searchbar{
+
+  text-align: center;
+  width: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 60%;
+  padding: 10px 20px 10px 40px;
+
+}
+.filterclr{
+color: rgb(18, 4, 78);
+font-weight: bold;
+
+}
+
+
+.searchbutton{
+  padding: 10px;
+  width: 15%;
+  height: 5%;
+  border: 1px solid black;
+  background: blueviolet;
+  color: aqua;
+
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+  @media only screen and (max-width: 450px) {
+    .navbarview {
+      float: none;
+      /* display: flex; */
+  flex-direction: row;
+      /* display: inline-block; */
+      text-align: center;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .navbarview li{
+      display: block;
+    }
+    .head{
+      background-color: lightsalmon;
+      /* overflow: auto; */
+     flex-wrap: wrap;
+  
+     flex-shrink: inherit;
+      display: inline-flex;
+      flex-direction: column;
+      color: black;
+      text-align: center;
+      justify-content: center;
+      padding-right: 300px;
+      padding: 10px;
+      text-decoration: none;
+       font-size: 18px; 
+       line-height: 25px;
+       border-radius: 4px;
+    }
+  }
+
+  /* display: flex;
+  flex-direction: row;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  } */

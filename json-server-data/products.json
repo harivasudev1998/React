@@ -1,0 +1,128 @@
+{
+  "allproducts": [
+    {
+      "name": "One plus Nord 5G",
+      "price": "32500",
+      "rating": "10",
+      "stock": "164",
+      "category": "Mobile",
+      "description": "Very new awesome product",
+      "image": "1.jpg",
+      "id": 1
+    },
+    {
+      "name": "Oppo",
+      "price": "20000",
+      "rating": "9",
+      "stock": 154,
+      "category": "Mobile",
+      "description": "Brand new mobile by oppo",
+      "image": "2.jpg",
+      "id": 2
+    },
+    {
+      "name": "Redmi",
+      "price": "14000",
+      "rating": "9",
+      "stock": 164,
+      "category": "Mobile",
+      "description": "Brand New Mobile by Redmi",
+      "image": "3.jpg",
+      "id": 3
+    },
+    {
+      "name": "Asus",
+      "price": "50000",
+      "rating": "10",
+      "stock": 132,
+      "category": "Laptop",
+      "description": "New Laptop at reasonable rates",
+      "image": "6.jpg",
+      "id": 5
+    },
+    {
+      "name": "veggie basket",
+      "price": "120",
+      "rating": "9",
+      "stock": 123,
+      "category": "Groceries",
+      "description": "fresh...",
+      "image": "7.jpg",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Hari",
+      "lastname": "Vasudev",
+      "username": "hari",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 1
+    },
+    {
+      "firstname": "pre",
+      "lastname": "veen",
+      "username": "sasa",
+      "password": "1234",
+      "confirmpassword": "1234",
+      "id": 2
+    },
+    {
+      "firstname": "harry",
+      "lastname": "v",
+      "username": "harry",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 3
+    },
+    {
+      "firstname": "pra",
+      "lastname": "nav",
+      "username": "pranav",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 4
+    },
+    {
+      "firstname": "harry",
+      "lastname": "vasu",
+      "username": "hari12",
+      "password": "12",
+      "confirmpassword": "12",
+      "id": 5
+    },
+    {
+      "firstname": "ram",
+      "lastname": "kumar",
+      "username": "ram",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 6
+    },
+    {
+      "firstname": "hari",
+      "lastname": "vasudev",
+      "username": "hari1234",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 7
+    },
+    {
+      "firstname": "hari123",
+      "lastname": "vasudev12",
+      "username": "hari11",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 8
+    },
+    {
+      "firstname": "harry2",
+      "lastname": "Vasudev",
+      "username": "hari21",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 9
+    }
+  ]
+}
